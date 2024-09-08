@@ -1,0 +1,387 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Sep  8 13:27:32 2024
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+SNAP_EUID = 1000
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# environment
+PLATFORMIO_IDE = 3.3.3
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/zaynap/Fighting_Robot
+# makefile
+SHELL = /bin/sh
+# environment
+SNAP_DATA = /var/snap/code/168
+# environment
+GIO_MODULE_DIR = /home/zaynap/snap/code/common/.cache/gio-modules
+# environment
+VSCODE_NLS_CONFIG = {"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/snap/code/168/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}
+# environment
+JOURNAL_STREAM = 8:52061
+# environment
+XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG = /etc/xdg/xdg-ubuntu:/etc/xdg
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# makefile
+MAKEFILE_LIST := 
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+QT_IM_MODULE = ibus
+# environment
+USERNAME = zaynap
+# environment
+XDG_DATA_DIRS_VSCODE_SNAP_ORIG = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
+# environment
+XDG_DATA_DIRS = /home/zaynap/snap/code/168/.local/share:/home/zaynap/snap/code/168:/snap/code/168/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+ROS_ETC_DIR = /opt/ros/noetic/etc/ros
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+_ = /snap/code/168/usr/share/code/code
+# environment
+ROS_PACKAGE_PATH = /home/zaynap/catvehicle_ws/src:/opt/ros/noetic/share
+# environment
+MANAGERPID = 2205
+# environment
+TURTLEBOT3_MODEL = burger
+# environment
+ROS_PYTHON_VERSION = 3
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = ar_EG.UTF-8
+# environment
+VSCODE_CWD = /home/zaynap
+# environment
+GSETTINGS_SCHEMA_DIR = /home/zaynap/snap/code/168/.local/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+NO_PROXY = 127.0.0.1,127.0.0.1,127.0.0.1
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/zaynap:@/tmp/.ICE-unix/2352,unix/zaynap:/tmp/.ICE-unix/2352
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/zaynap/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+SNAP = /snap/code/168
+# environment
+ROS_ROOT = /opt/ros/noetic/share/ros
+# environment
+SNAP_VERSION = 4849ca9b
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 9ff4d17d25174f3da52554fbe8912dd7
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/168/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+CMAKE_PREFIX_PATH = /home/zaynap/catvehicle_ws/devel:/opt/ros/noetic
+# environment
+ROS_DISTRO = noetic
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 5598
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+PWD = /home/zaynap/Fighting_Robot
+# default
+.LOADED := 
+# environment
+GTK_PATH = /snap/code/168/usr/lib/x86_64-linux-gnu/gtk-3.0
+# environment
+SSH_AGENT_PID = 2314
+# environment
+PKG_CONFIG_PATH = /home/zaynap/catvehicle_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/zaynap
+# environment
+LD_LIBRARY_PATH = /home/zaynap/catvehicle_ws/devel/lib:/opt/ros/noetic/lib
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/zaynap/.config/Code/CachedData/4849ca9bdf9666755eb463db297b69e5385090e3
+# environment
+LOGNAME = zaynap
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = _JOkcEzniRxnrDSQ-PCUyD7vnR5cV5rP3SXB8cf9fYrIrWC8nnOU
+# automatic
++F = $(notdir $+)
+# environment
+SNAP_LAUNCHER_ARCH_TRIPLET = x86_64-linux-gnu
+# environment
+SNAP_USER_COMMON = /home/zaynap/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+LC_TIME = ar_EG.UTF-8
+# environment
+SNAP_REAL_HOME = /home/zaynap
+# environment
+PLATFORMIO_PATH = /home/zaynap/.platformio/python3/bin:/home/zaynap/.local/bin:/home/zaynap/bin:/opt/ros/noetic/bin:/home/zaynap/.local/bin:/home/zaynap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+PATH = /home/zaynap/.local/bin:/home/zaynap/bin:/opt/ros/noetic/bin:/home/zaynap/.local/bin:/home/zaynap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+SNAP_USER_DATA = /home/zaynap/snap/code/168
+# environment
+SHLVL = 0
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = zaynap
+# environment
+SNAP_REVISION = 168
+# environment
+LC_MONETARY = ar_EG.UTF-8
+# makefile
+.DEFAULT_GOAL := 
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+ROSLISP_PACKAGE_DIRECTORIES = /home/zaynap/catvehicle_ws/devel/share/common-lisp
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = ar_EG.UTF-8
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+GTK_EXE_PREFIX = /snap/code/168/usr
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-eae4d154-1.93-main.sock
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+PYTHONPATH = /home/zaynap/catvehicle_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+GTK_IM_MODULE_FILE = /home/zaynap/snap/code/common/.cache/immodules/immodules.cache
+# environment
+ROS_VERSION = 1
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = ar_EG.UTF-8
+# environment
+LC_IDENTIFICATION = ar_EG.UTF-8
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = _JOkcEzniRxnrDSQ-PCUyD7vnR5cV5rP3SXB8cf9fYrIrWC8nnOU
+# environment
+LC_NUMERIC = ar_EG.UTF-8
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# environment
+LC_MEASUREMENT = ar_EG.UTF-8
+# environment
+ROS_MASTER_URI = http://localhost:11311
+# environment
+SNAP_NAME = code
+# environment
+LC_ALL = C
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# environment
+SNAP_UID = 1000
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# environment
+LOCPATH = /snap/code/168/usr/lib/locale
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+ 
+make: *** No rule to make target 'all'.  Stop.
+
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = ar_EG.UTF-8
+# environment
+LANG = C
+# environment
+VSCODE_PID = 5644
+# environment
+MAKELEVEL := 0
+# variable set hash-table stats:
+# Load=151/1024=15%, Rehash=0, Collisions=32/173=18%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2053, inode 19030597): 7 files, no impossibilities.
+
+# 7 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 15 / storage = 135 B / avg = 9 B
+# current buf: size = 8162 B / used = 135 B / count = 15 / avg = 9 B
+
+# strcache performance: lookups = 18 / hit rate = 16%
+# hash-table stats:
+# Load=15/8192=0%, Rehash=0, Collisions=1/18=6%
+# Finished Make data base on Sun Sep  8 13:27:32 2024
+
+ 
